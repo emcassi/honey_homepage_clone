@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+#header {
+    background-color: rgb(253, 214, 102);
+    padding-left: 150px;
+    padding-top: 50px;
+    display: flex;
+}
+
+#header a {
+    width: 15%;
+    margin-right: 50px;
+}
+
+#banner {
+    background-color: rgb(253, 214, 102);
+    padding-top: 25px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#banner-left {
+    width: 25%;
+}
+
+#banner-left h1 {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 48px;
+}
+
+p {
+    line-height: 28px;
+}
+
+#banner-reviews {
+    display: flex;
+    justify-content: left;
+    vertical-align: bottom;
+    margin: 10px 0;
+}
+
+#banner-reviews p {
+    font-size: 14px;
+}
+
+#banner-reviews img {
+    width: 80px;
+    padding-right: 10px;
+}
+
+.add-to-chrome {
+    background-color: rgba(255,114,39,1);
+    border: none;
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bolder;
+    font-family: Roboto;
+    font-style: normal;
+    text-align: center;
+    width: 231px;
+    height: 57px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+#save-fav-things {
+    text-align: center;
+    justify-content: center;
+    margin: 20px 0;
+    padding-bottom: 50px;
+}
+
+#save-fav-things h1 {
+    font-size: 38px;
+    padding: 25px 0;
+}
+
+#save-fav-things p {
+    padding-bottom: 20px;
+}
+
+.fav-things-imgs-row img {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 20px 50px;
+}
+
+#its-easy {
+    background-color: rgba(41,42,42,1);
+    color: white;
+    font-size: 28px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#step1 {
+    background-color: white;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#step1-left {
+    width: 25%;
+    text-align: left;
+}
+
+#steps h1 {
+    font-size: 72px;
+    padding: 10px 0;
+    color: rgb(255, 82, 82);
+}
+
+#steps h2 {
+    font-size: 36px;
+    padding: 20px 0;
+}
+
+#steps img {
+    width: 50%;
+}
+
+#step2 {
+    background-color: rgba(237,241,254,1);
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#step2-left {
+    width: 50%;
+    display: flex;
+    position: relative;
+}
+
+
+#step2-stack {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#step2-right {
+    text-align: left;
+    margin-left: 150px;
+}
+
+#step2-right p {
+    width: 75%;
+}
+
+#step3 {
+    background-color: white;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#step3-left {
+    padding-left: 150px;
+    width: 25%;
+    text-align: left;
+}
+
+#step3-right {
+    position: relative;
+    height: 500px;
+    width: 50%;
+}
+
+#step3-right img {
+    position: absolute;
+}
+
+#members-are-getting {
+    background-color: rgba(41,42,42,1);
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+}
+
+#members-items {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.members-item {
+    padding: 0 25px;
+}
+
+.members-item h1 {
+    color: #00C57D;
+    font-size: 48px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+#main-quote {
+    background-color: white;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#main-quote-left {
+    width: 30%;
+    text-align: center;
+}
+
+#main-quote h1 {
+    font-size: 48px;
+    font-family: "Poppins";
+}
+
+#main-quote-left p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+#main-quote img {
+    width: 50%;
+}
+
+#footer {
+    background-color: rgba(79,108,108,1);
+    text-align: center;
+    justify-content: center;
+    padding: 75px 0;
+    color: #DDDDDD;
+}
+
+#footer-quotes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-quote {
+    width: 12%;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+.footer-quote img {
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+#footer-privacy {
+    padding: 75px 300px 0 300px;
+    font-size: 12px;
+}
+
+#extra {
+    height: 1000px;
+}
